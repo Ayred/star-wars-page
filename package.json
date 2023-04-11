@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.2.96",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "core-js": "^3.29.1",
+    "nuxt": "^2.16.3"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "material-design-icons-iconfont": "^6.7.0"
+  }
+}
