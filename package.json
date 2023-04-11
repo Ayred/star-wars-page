@@ -6,13 +6,15 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@mdi/font": "^7.2.96",
     "@nuxtjs/vuetify": "^1.12.3",
     "core-js": "^3.29.1",
-    "nuxt": "^2.16.3"
+    "nuxt": "^2.16.3",
+    "push-dir": "^0.4.1"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
